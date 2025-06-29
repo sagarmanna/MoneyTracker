@@ -1,0 +1,203 @@
+/* Root Styling */
+* {
+  box-sizing: border-box;
+  transition: all 0.25s ease;
+}
+
+body {
+  background: linear-gradient(135deg, #1e1e2f, #2c2c3f);
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Main Container */
+main {
+  max-width: 460px;
+  margin: auto;
+  background: rgba(46, 47, 79, 0.8);
+  padding: 24px 26px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #a78bfa;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+h1::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  margin: 12px auto 0;
+  background: linear-gradient(to right, #8b5cf6, #4c1d95);
+  border-radius: 4px;
+}
+
+/* Inputs & Buttons */
+form input,
+form button {
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 12px;
+  border: 1.5px solid #3b3b55;
+  border-radius: 8px;
+  background: #202034;
+  color: #f9f9f9;
+  font-size: 1rem;
+}
+
+form input:focus {
+  border-color: #8b5cf6;
+  outline: none;
+  box-shadow: 0 0 8px #8b5cf6aa;
+}
+
+/* Add Button */
+form button {
+  background: linear-gradient(to right, #7c3aed, #4c1d95);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4);
+}
+
+form button:hover {
+  transform: scale(1.02);
+  background: linear-gradient(to right, #a78bfa, #6d28d9);
+}
+
+form button:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 10px rgba(124, 58, 237, 0.3);
+}
+
+/* Transactions List */
+.transactions {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-height: 60vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #7c3aed transparent;
+}
+
+.transactions::-webkit-scrollbar {
+  width: 6px;
+}
+
+.transactions::-webkit-scrollbar-thumb {
+  background-color: #7c3aed;
+  border-radius: 6px;
+}
+
+/* Transaction Card */
+.transaction {
+  background: rgba(36, 36, 70, 0.9);
+  padding: 14px 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 5px solid #4c4c7f;
+  transition: transform 0.2s ease;
+}
+
+.transaction:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(124, 58, 237, 0.5);
+  background: linear-gradient(90deg, rgba(36, 36, 70, 0.95), rgba(46, 47, 79, 0.95));
+}
+
+/* Left Text */
+.transaction .left {
+  flex: 1;
+}
+
+.transaction .name {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #f0f0ff;
+}
+
+.transaction .description {
+  font-size: 0.85rem;
+  color: #bbb;
+  margin-top: 4px;
+}
+
+/* Right Info */
+.transaction .right {
+  text-align: right;
+  min-width: 110px;
+}
+
+.transaction .price.green {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.transaction .price.red {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+.transaction .datetime {
+  font-size: 0.75rem;
+  color: #d1d5db;
+  margin-top: 4px;
+}
+
+/* Optional Category Badge */
+.transaction .badge {
+  background: #9333ea;
+  padding: 3px 7px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  margin-left: 10px;
+  color: white;
+  font-weight: 500;
+  animation: pop 0.3s ease;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  main {
+    padding: 16px 18px;
+  }
+
+  form input,
+  form button {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
