@@ -6,8 +6,7 @@
 
 <p align="center">
   <a href="https://youtu.be/OgMoNQdD9-4"><img alt="YouTube Demo" src="https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube"></a>
-  <img alt="MERN Stack" src="https://img.shields.io/badge/Built%20With-MERN%20Stack-blueviolet?style=for-the-badge">
-  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+
 </p>
 
 ---
