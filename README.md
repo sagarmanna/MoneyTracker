@@ -5,46 +5,60 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/OgMoNQdD9-4"><img alt="YouTube Demo" src="https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube"></a>
-
+  <a href="https://youtu.be/OgMoNQdD9-4">
+    <img alt="YouTube Demo" src="https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube">
+  </a>
+  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 </p>
-
----
-
-## 📽️ Live Demo
-
-🎥 **Watch Now:** [https://youtu.be/OgMoNQdD9-4](https://youtu.be/OgMoNQdD9-4)
-
----
-
-## 📸 Screenshots
-![Screenshot 2025-06-29 190707](https://github.com/user-attachments/assets/4998dc01-4114-42ce-a8e3-79e143ff06ea)
-
-
-![Screenshot 2025-06-29 190716](https://github.com/user-attachments/assets/c8df5a75-fbc3-40c9-a7d2-ec6c5b62e8b9)
-
-## 🚀 Features
-
-- ✅ Add income & expense transactions
-- 📊 View real-time balance
-- 🧾 Transaction history
-- 💾 Data stored in MongoDB (Cloud)
-- ⚡ Fully responsive UI
-- 💻 Powered by React, Node, Express & MongoDB
 
 ---
 
 ## 🧠 Tech Stack
 
-| Tech | Usage |
-|------|-------|
-| ⚛️ React.js | Frontend UI & hooks |
-| 🖥 Node.js + Express.js | RESTful backend API |
-| 🗃 MongoDB Atlas | Cloud Database |
-| 🧬 Mongoose | Schema modeling |
-| 🎨 CSS | Modern glassmorphism UI |
-| 🌐 CORS & dotenv | Secure configs & API |
+| 🛠️ Technology      | 💡 Purpose                        |
+|--------------------|-----------------------------------|
+| ⚛️ **React.js**     | Frontend UI & state management   |
+| 🖥 **Node.js**       | Backend runtime environment      |
+| 🚀 **Express.js**    | Backend RESTful API framework    |
+| 🗃 **MongoDB Atlas** | Cloud NoSQL database             |
+| 🧬 **Mongoose**      | MongoDB ODM (Schema modeling)    |
+| 🎨 **CSS**           | UI Styling (Glassmorphism UI)    |
+| 🌐 **CORS & dotenv** | Secure configs & cross-origin    |
 
 ---
 
+## 📽️ Live Demo
 
+🎥 **Watch on YouTube**  
+🔗 [https://youtu.be/OgMoNQdD9-4](https://youtu.be/OgMoNQdD9-4)
+
+---
+
+## 🚀 Features
+
+- ✅ Add income and expense transactions
+- 📊 Real-time balance updates
+- 🧾 View full transaction history
+- 🔄 Data persisted in MongoDB (cloud-based)
+- 📱 Mobile responsive & clean UI
+- 🔐 Secure backend environment using `.env`
+
+---
+
+## 📸 Screenshots
+
+### ➕ Add Transaction
+![Screenshot 2025-06-29 190707](https://github.com/user-attachments/assets/4998dc01-4114-42ce-a8e3-79e143ff06ea)
+
+### 📋 View Transactions
+![Screenshot 2025-06-29 190716](https://github.com/user-attachments/assets/c8df5a75-fbc3-40c9-a7d2-ec6c5b62e8b9)
+
+---
+
+## 🛠️ Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/moneytracker.git
+cd moneytracker
