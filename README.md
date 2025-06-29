@@ -22,8 +22,11 @@
 
 ## 📽️ Live Demo
 
-🎬 Watch on YouTube:  
-👉 [https://youtu.be/OgMoNQdD9-4](https://youtu.be/OgMoNQdD9-4)
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/OgMoNQdD9-4)
+
+📺 **Click the image below to watch the demo:**
+
+[![MoneyTracker YouTube Thumbnail](https://img.youtube.com/vi/OgMoNQdD9-4/hqdefault.jpg)](https://youtu.be/OgMoNQdD9-4)
 
 ---
 
